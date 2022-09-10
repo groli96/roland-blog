@@ -76,7 +76,7 @@ class Comment(db.Model):
 
 
 # create the database - ONLY NEEDED ONCE
-db.create_all()
+# db.create_all()
 
 
 def admin_only(function):
